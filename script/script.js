@@ -50,7 +50,7 @@ for (const callBtn of callsBtn) {
     const childDiv = document.createElement("div");
     childDiv.innerHTML = `<div class="h-[83px] w-full rounded-xl mt-4 flex justify-between items-center p-5 bg-gray-100">
               <div>
-                <h1>${title}</h1>
+                <h1 class="font-bold">${title}</h1>
                 <p>${number}</p>
               </div>
               <h3>${time}</h3>
