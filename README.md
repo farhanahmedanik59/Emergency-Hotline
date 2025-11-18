@@ -1,13 +1,50 @@
-1.getElementById: একটি নির্দিষ্ট ID অনুযায়ী একটি এলিমেন্ট নেয়।
-  getElementsByClassName: একই ক্লাসের সব এলিমেন্ট নেয়।
-  querySelector: প্রথম ম্যাচ করা এলিমেন্ট নেয়।
-  querySelectorAll: সব ম্যাচ করা এলিমেন্ট নেয়।
+# Bangladesh Emergency Hotline 🚨
 
-2. document.createelement()  দিয়ে নতুন এলিমেন্ট তৈরি করে তার মধ্যে কনটেন্ট বা ক্লাস দেয়া হয় যেমন ('div'), তারপর সেটি parentelement এর সাথে appendChild() দিয়ে  পেজে যোগ করা হয়।
 
-3.ইভেন্ট বাবলিং হল যখন কোন ইভেন্ট প্রথমে সেই এলিমেন্টে হয় এবং পরে তার প্যারেন্ট এলিমেন্টে চলে যায়।
 
-4.প্যারেন্টে একবারে ইভেন্ট লিসেনার বসানো হয়, যা সব চাইল্ড এলিমেন্টের ইভেন্ট ধরতে পারে। এটি সুবিধাজনক কারণ কম লিসেনার লাগে এবং নতুন এলিমেন্টও কাজ করে।
+The **Bangladesh Emergency Hotline** frontend is a **web application** that provides quick access to emergency services including police, fire, medical, and disaster support.  
+This repository contains the **frontend code** built with **[React.js / Next.js / plain HTML-CSS-JS]**.  
 
-5. *preventDefault(): ব্রাউজারের ডিফল্ট কাজ থামায়।
-   *stopPropagation(): ইভেন্টকে উপরের এলিমেন্টে যাওয়া থেকে আটকায়
+---
+
+## 🌟 Features
+
+- Responsive user interface for desktop and mobile.  
+- Browse emergency contacts by category: Police, Fire, Ambulance, Disaster Management.  
+- Search and filter contacts by type or location.  
+- Real-time fetching of hotline numbers from backend API.  
+- Easy-to-use and accessible design for quick emergency access.  
+
+---
+
+## 🛠️ Tech Stack
+
+- **Frontend Framework:** React.js / Next.js (replace if different)  
+- **Styling:** CSS / Tailwind CSS / React 
+- **API Integration:**  Fetch API  
+  
+
+---
+
+
+
+
+## ⚡ Installation
+
+1. **Clone the repository**
+
+```bash
+git clone https://github.com/farhanahmedanik59/bd-emergency-hotline-frontend.git
+cd bd-emergency-hotline-frontend
+Install dependencies ( using Node.js / React)
+
+bash
+Copy code
+npm install
+
+Start the development server
+
+bash
+Copy code
+npm start
+The app should run at http://localhost:3000.
